@@ -30,13 +30,13 @@ Verify correct serial data transmission and reception using testbenches and hard
 <br>
 A standard UART frame consists of:
 <br>
-Idle State: Line held HIGH (logic 1)
+-Idle State: Line held HIGH (logic 1)
 <br>
-Start Bit: Logic 0 indicating beginning of transmission
+-Start Bit: Logic 0 indicating beginning of transmission
 <br>
-Data Bits: 8 bits (LSB first)
+-Data Bits: 8 bits (LSB first)
 <br>
-Stop Bit: Logic 1 indicating end of frame
+-Stop Bit: Logic 1 indicating end of frame
 
 **Oversampling Technique (Receiver)**
 <br>
