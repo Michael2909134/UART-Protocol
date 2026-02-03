@@ -1,4 +1,4 @@
-# UART Fundamentals
+# UART Protocol using verilog 
 
 U – Universal: Applicable across diverse devices
 <br>
@@ -14,6 +14,7 @@ Common baud rates include:
 <br>
 4800, 9600, 19200, 57600, 115200-Protocol
 <br>
+
 **Objective**
 <br>
 Design and implement UART Transmitter and Receiver using Verilog HDL
