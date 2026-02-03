@@ -24,6 +24,18 @@ Simulate the design using Vivado
 Synthesize and deploy on KC705 Kintex-7 FPGA
 <br>
 Verify correct serial data transmission and reception using testbenches and hardware validation
+<br>
+**UART Frame Structure**
+<br>
+A standard UART frame consists of:
+<br>
+Idle State: Line held HIGH (logic 1)
+<br>
+Start Bit: Logic 0 indicating beginning of transmission
+<br>
+Data Bits: 8 bits (LSB first)
+<br>
+Stop Bit: Logic 1 indicating end of frame
 
 
 
