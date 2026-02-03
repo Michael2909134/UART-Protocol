@@ -62,6 +62,7 @@ Simulation & Synthesis: Vivado
 <br>
 Target FPGA: KC705 (Kintex-7)
 <br>
+
 **Key Highlights**
 <br>
 Fully asynchronous serial communication
