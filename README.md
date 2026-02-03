@@ -25,6 +25,7 @@ Synthesize and deploy on KC705 Kintex-7 FPGA
 <br>
 Verify correct serial data transmission and reception using testbenches and hardware validation
 <br>
+
 **UART Frame Structure**
 <br>
 A standard UART frame consists of:
@@ -36,6 +37,22 @@ Start Bit: Logic 0 indicating beginning of transmission
 Data Bits: 8 bits (LSB first)
 <br>
 Stop Bit: Logic 1 indicating end of frame
+
+**Oversampling Technique (Receiver)**
+<br>
+To ensure accurate sampling without a shared clock, the receiver employs 16× oversampling:
+<br>
+1.Detect falling edge (start bit)
+<br>
+2.Sample at the midpoint of the start bit
+<br>
+3.Sample each data bit at its midpoint
+<br>
+4.Shift received bits into a register
+<br>
+5.Sample stop bit to complete the frame
+<br>
+This technique minimizes timing errors and improves noise immunity.
 
 
 
