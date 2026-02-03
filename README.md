@@ -1,6 +1,7 @@
 # UARTUART Fundamentals
 
 U – Universal: Applicable across diverse devices
+<br>
 A – Asynchronous: No clock line is shared
 R – Receiver, T – Transmitter
 Uses a single data line for transmission
