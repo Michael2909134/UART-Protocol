@@ -61,6 +61,16 @@ HDL: Verilog
 Simulation & Synthesis: Vivado
 <br>
 Target FPGA: KC705 (Kintex-7)
+<br>
+**Key Highlights**
+<br>
+Fully asynchronous serial communication
+<br>
+Robust FSM-based design
+<br>
+Optimized baud rate generation
+<br>
+FPGA-validated implementation
 
 
 
