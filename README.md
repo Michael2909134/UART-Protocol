@@ -1,4 +1,4 @@
-# UARTUART Fundamentals
+# UART Fundamentals
 
 U – Universal: Applicable across diverse devices
 <br>
@@ -13,6 +13,16 @@ Data integrity depends on accurate baud rate timing
 Common baud rates include:
 <br>
 4800, 9600, 19200, 57600, 115200-Protocol
+<br>
+Objective
+<br>
+Design and implement UART Transmitter and Receiver using Verilog HDL
+<br>
+Simulate the design using Vivado
+<br>
+Synthesize and deploy on KC705 Kintex-7 FPGA
+<br>
+Verify correct serial data transmission and reception using testbenches and hardware validation
 
 
 
