@@ -65,13 +65,13 @@ Target FPGA: KC705 (Kintex-7)
 
 **Key Highlights**
 <br>
-Fully asynchronous serial communication
+-Fully asynchronous serial communication
 <br>
-Robust FSM-based design
+-Robust FSM-based design
 <br>
-Optimized baud rate generation
+-Optimized baud rate generation
 <br>
-FPGA-validated implementation
+-FPGA-validated implementation
 
 
 
