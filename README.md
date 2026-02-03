@@ -54,6 +54,14 @@ To ensure accurate sampling without a shared clock, the receiver employs 16× ov
 <br>
 This technique minimizes timing errors and improves noise immunity.
 
+**Tools & Platform**
+<br>
+HDL: Verilog
+<br>
+Simulation & Synthesis: Vivado
+<br>
+Target FPGA: KC705 (Kintex-7)
+
 
 
  
